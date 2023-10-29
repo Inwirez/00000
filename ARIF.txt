@@ -1,0 +1,12 @@
+import time
+
+print('Среднее арифметическое')
+print('Введите первое число')
+number1 = float(input())
+print('Введите второе число')
+number2 = float(input())
+average = (number1 + number2) / 2
+rounded_average = round(average)
+print(f"Среднее арифметическое: {rounded_average}")
+print('time.sleep(50)')
+time.sleep(50) # Если вы открыли через python.exe

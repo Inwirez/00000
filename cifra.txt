@@ -1,0 +1,12 @@
+import time
+
+print('Программа с округлением (Round)')
+print('Введите число')
+number1 = float(input())
+print('Введитн количество цифр после запятой')
+number2 = int(input())
+rounded_number = round(number1, number2)
+print(f"Результат: {rounded_number}")
+print('time.sleep(50)')
+time.sleep(50) # Если вы открыли через python.exe
+
